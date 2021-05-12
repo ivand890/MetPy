@@ -105,4 +105,4 @@ jobs:
         path: test_output/
 
     - name: Upload coverage
-      uses: codecov/codecov-action@v1
+      uses: codecov/codecov-action@v1.5.0
