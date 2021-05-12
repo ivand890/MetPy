@@ -44,7 +44,7 @@ jobs:
           conda-tests-
 
     - name: Set up Python ${{ matrix.python-version }}
-      uses: goanpeca/setup-miniconda@v1
+      uses: goanpeca/setup-miniconda@v1.7.0
       with:
         auto-update-conda: true
         miniconda-version: "latest"
